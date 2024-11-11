@@ -1,0 +1,11 @@
+# This is Git's per-user configuration file.
+[user]
+# Please adapt and uncomment the following lines:
+	name = Adam Scroggin
+	email = blah@blah.com
+[credential "http://tndevops"]
+	provider = generic
+[merge]
+	tool = code
+[mergetool "code"]
+	cmd = code --wait --merge $REMOTE $LOCAL $BASE $MERGED
